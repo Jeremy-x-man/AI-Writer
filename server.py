@@ -25,7 +25,7 @@ WORD_NAME = 'model/wangwen-2022-02-15' # 这个也修改
 top_p = 0.75 # 这个的范围是 0 到 1。越大，变化越多。越小，生成效果越规矩。自己试试 0 和 0.5 和 1.0 的效果就知道了
 top_p_newline = 0.9
 
-LENGTH_OF_EACH = 20  # 每次写多少字
+LENGTH_OF_EACH = 500  # 每次写多少字
 
 ctx_len = 512
 n_layer = 12
